@@ -1,0 +1,11 @@
+.faq-title>a:before {
+    float: right !important;
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f068";
+    padding-right: 5px;
+}
+
+.faq-title>a.collapsed:after {
+    float: right !important;
+    content: "\f067";
+}
