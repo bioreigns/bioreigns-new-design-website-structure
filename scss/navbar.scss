@@ -1,17 +1,40 @@
 // navbar style
+.navbar-collapse {
+    height: 100% !important;
+}
+
 .navbar-nav {
+    height: 100% !important;
     li {
+        // border-bottom: 2px #fff solid !important;
+        height: 100% !important;
         a {
             font-size: .7em;
             font-weight: 500;
         }
+        &:hover {
+            a.nav-link {
+                color: #bf9332 !important;
+            }
+        }
     }
-}
-
-.navbar-nav {
     li.active {
+        // border-bottom: 2px #bf9332 solid !important;
         a {
             color: #bf9332 !important;
         }
     }
+}
+
+.dropdown-menu {
+    width: 250px !important;
+    a {
+        &:hover {
+            color: #bf9332 !important;
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: none !important;
 }

@@ -26,23 +26,24 @@
     <!-- NAVBAR -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand mr-5" href="#"><img class="img-fluid" src="dist/img/bioreigns-logo.svg" style="width:200px" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand mr-5 d-none d-md-block" href="#"><img class="img-fluid" src="dist/img/bioreigns-logo.svg" style="width:200px" alt=""></a>
+                <a class="navbar-brand d-block d-md-none" href="#"><img class="img-fluid" src="dist/img/logo-icon.png" style="width:50px" alt=""></a>
+                <button class="navbar-toggler border-0 text-gold" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
             </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto text-uppercase">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    about
-                </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>about</span>
+                                <i class="fas fa-angle-down ml-1"></i>
+                            </a>
+                            <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="technology.html">Technology</a>
                             </div>
                         </li>
@@ -51,10 +52,51 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    products
-                </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="all-product.html">All Products</a>
+                                products 
+                                <i class="fas fa-angle-down ml-1"></i>
+                            </a>
+                            <div class="dropdown-menu border-0 shadow-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item mb-2" href="all-product.html">
+                                    <div class="row">
+                                        <div class="col-4 d-flex align-items-center">
+                                            <img class="img-fluid" width="50px" src="dist/img/biodefense.png" alt="">
+                                        </div>
+                                        <div class="col-8 d-flex align-items-center">
+                                            <span>tinctures</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item mb-2" href="all-product.html">
+                                    <div class="row">
+                                        <div class="col-4 d-flex align-items-center">
+                                            <img class="img-fluid" width="50px" src="dist/img/RELIEF-LOTION.png" alt="">
+                                        </div>
+                                        <div class="col-8 d-flex align-items-center">
+                                            <span>relief</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item mb-2" href="all-product.html">
+                                    <div class="row">
+                                        <div class="col-4 d-flex align-items-center">
+                                            <img class="img-fluid" width="50px" src="dist/img/GUMMY-REGULAR.png" alt="">
+                                        </div>
+                                        <div class="col-8 d-flex align-items-center">
+                                            <span>gummies</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item mb-2" href="all-product.html">
+                                    <div class="row">
+                                        <div class="col-4 d-flex align-items-center">
+                                            <img class="img-fluid" width="50px" src="dist/img/GUMMY-REGULAR.png" alt="">
+                                        </div>
+                                        <div class="col-8 d-flex align-items-center">
+                                            <span>all products</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-item">

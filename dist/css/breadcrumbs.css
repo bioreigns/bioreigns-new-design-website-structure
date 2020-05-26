@@ -1,0 +1,12 @@
+.bc-nav ol li {
+  font-size: .8em !important;
+  color: #bf9332 !important;
+  text-transform: uppercase;
+  font-weight: 500; }
+  .bc-nav ol li:before {
+    color: #fff !important; }
+  .bc-nav ol li a {
+    color: #fff !important; }
+
+.text-black {
+  color: #333 !important; }

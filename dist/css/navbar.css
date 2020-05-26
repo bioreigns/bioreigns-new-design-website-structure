@@ -1,0 +1,22 @@
+.navbar-collapse {
+  height: 100% !important; }
+
+.navbar-nav {
+  height: 100% !important; }
+  .navbar-nav li {
+    height: 100% !important; }
+    .navbar-nav li a {
+      font-size: .7em;
+      font-weight: 500; }
+    .navbar-nav li:hover a.nav-link {
+      color: #bf9332 !important; }
+  .navbar-nav li.active a {
+    color: #bf9332 !important; }
+
+.dropdown-menu {
+  width: 250px !important; }
+  .dropdown-menu a:hover {
+    color: #bf9332 !important; }
+
+.dropdown-toggle::after {
+  display: none; }
