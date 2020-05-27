@@ -53,11 +53,13 @@ body {
 }
 
 .btn-outline-black {
-    padding: 8px 20px !important;
+    padding: 15px 30px !important;
     border: 1px #333 solid !important;
-    border-radius: 2em;
+    border-radius: 2em !important;
     color: #333 !important;
-    transition-delay: .1s;
+    transition: all .2s ease-in-out;
+    font-weight: 500 !important;
+    font-size: .7em !important;
     &:hover {
         background-color: #333 !important;
         color: #fff !important;
@@ -66,16 +68,21 @@ body {
 }
 
 .btn-gold {
-    padding: 8px 20px !important;
+    padding: 15px 30px !important;
     border: 1px #bf9332 solid !important;
     border-radius: 2em !important;
     color: #fff !important;
     background-color: #bf9332 !important;
-    transition-delay: .1s;
+    transition: all .2s ease-in-out;
+    font-weight: 500 !important;
+    font-size: .7em !important;
+    position: relative;
+    z-index: 0;
     &:hover {
         background-color: #bf9332 !important;
         color: #fff !important;
-        transition-delay: .1s;
+        transform: scale(1.03);
+        transition: all .2s;
     }
 }
 

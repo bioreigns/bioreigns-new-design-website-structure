@@ -1,0 +1,8 @@
+.page-hero-section {
+  background-image: url("/dist/img/page-hero-bg.png") !important;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }

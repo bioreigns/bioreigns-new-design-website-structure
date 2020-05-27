@@ -4,6 +4,7 @@
 .navbar-nav {
   height: 100% !important; }
   .navbar-nav li {
+    margin: 0 5px;
     height: 100% !important; }
     .navbar-nav li a {
       font-size: .7em;
@@ -13,10 +14,18 @@
   .navbar-nav li.active a {
     color: #bf9332 !important; }
 
+@media (min-width: 576px) {
+  .dropdown-menu {
+    margin: 0 !important;
+    width: 100% !important; } }
+
 .dropdown-menu {
-  width: 250px !important; }
+  width: 240px !important; }
   .dropdown-menu a:hover {
     color: #bf9332 !important; }
+  .dropdown-menu a:focus {
+    background-color: #bf9332;
+    color: #fff !important; }
 
 .dropdown-toggle::after {
-  display: none; }
+  display: none !important; }

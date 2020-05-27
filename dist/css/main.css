@@ -41,27 +41,34 @@ body {
     transition-delay: .1s; }
 
 .btn-outline-black {
-  padding: 8px 20px !important;
+  padding: 15px 30px !important;
   border: 1px #333 solid !important;
-  border-radius: 2em;
+  border-radius: 2em !important;
   color: #333 !important;
-  transition-delay: .1s; }
+  transition: all .2s ease-in-out;
+  font-weight: 500 !important;
+  font-size: .7em !important; }
   .btn-outline-black:hover {
     background-color: #333 !important;
     color: #fff !important;
     transition-delay: .1s; }
 
 .btn-gold {
-  padding: 8px 20px !important;
+  padding: 15px 30px !important;
   border: 1px #bf9332 solid !important;
   border-radius: 2em !important;
   color: #fff !important;
   background-color: #bf9332 !important;
-  transition-delay: .1s; }
+  transition: all .2s ease-in-out;
+  font-weight: 500 !important;
+  font-size: .7em !important;
+  position: relative;
+  z-index: 0; }
   .btn-gold:hover {
     background-color: #bf9332 !important;
     color: #fff !important;
-    transition-delay: .1s; }
+    transform: scale(1.03);
+    transition: all .2s; }
 
 .seprator-black {
   border-color: #333 !important; }
@@ -78,6 +85,7 @@ body {
 .navbar-nav {
   height: 100% !important; }
   .navbar-nav li {
+    margin: 0 5px;
     height: 100% !important; }
     .navbar-nav li a {
       font-size: .7em;
@@ -87,10 +95,18 @@ body {
   .navbar-nav li.active a {
     color: #bf9332 !important; }
 
+@media (min-width: 576px) {
+  .dropdown-menu {
+    margin: 0 !important;
+    width: 100% !important; } }
+
 .dropdown-menu {
-  width: 250px !important; }
+  width: 240px !important; }
   .dropdown-menu a:hover {
     color: #bf9332 !important; }
+  .dropdown-menu a:focus {
+    background-color: #bf9332;
+    color: #fff !important; }
 
 .dropdown-toggle::after {
   display: none !important; }
@@ -115,10 +131,6 @@ ul .list-item:hover .list-links {
 .legal-text {
   font-size: .8em !important;
   color: #999; }
-
-.hero-jumbotron {
-  width: 100%;
-  height: auto; }
 
 .blog .carousel-indicators {
   left: 0;
@@ -157,9 +169,18 @@ ul .list-item:hover .list-links {
   text-transform: uppercase;
   font-weight: 500; }
   .bc-nav ol li:before {
-    color: #fff !important; }
+    color: #333 !important; }
   .bc-nav ol li a {
-    color: #fff !important; }
+    color: #333 !important; }
 
 .text-black {
   color: #333 !important; }
+
+.page-hero-section {
+  background-image: url("/dist/img/page-hero-bg.png") !important;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }

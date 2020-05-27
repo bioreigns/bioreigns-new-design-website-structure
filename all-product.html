@@ -45,18 +45,25 @@
                                 <i class="fas fa-angle-down ml-1"></i>
                             </a>
                             <div class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="technology.html">Technology</a>
+                                <a class="dropdown-item" href="technology.html">
+                                    <div class="row">
+                                        <div class="col-12 d-flex align-items-center text-center justify-content-center">
+                                            <span class="mr-2">Technology</span>
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">shop</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                products 
+                            <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>products</span>
                                 <i class="fas fa-angle-down ml-1"></i>
                             </a>
-                            <div class="dropdown-menu border-0 shadow-0" aria-labelledby="navbarDropdown">
+                            <div class="container dropdown-menu border-0 shadow-0 mx-auto" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item mb-2" href="all-product.html">
                                     <div class="row">
                                         <div class="col-4 d-flex align-items-center">
@@ -87,14 +94,12 @@
                                         </div>
                                     </div>
                                 </a>
-                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-divider mx-2"></div>
                                 <a class="dropdown-item mb-2" href="all-product.html">
                                     <div class="row">
-                                        <div class="col-4 d-flex align-items-center">
-                                            <img class="img-fluid" width="50px" src="dist/img/GUMMY-REGULAR.png" alt="">
-                                        </div>
-                                        <div class="col-8 d-flex align-items-center">
-                                            <span>all products</span>
+                                        <div class="col-12 d-flex align-items-center text-center justify-content-center">
+                                            <span class="mr-2">see all products</span>
+                                            <i class="fas fa-angle-right"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -117,39 +122,52 @@
         </nav>
     </header>
 
-
     <!-- main content -->
 
     <main>
 
 
 
-        <section class="page-hero-section bg-gradient">
-            <div class="jumbotron page-hero-jumbotron bg-transparent">
+        <section class="page-hero-section">
+            <div class="jumbotron-fluid page-hero-jumbotron bg-transparent">
 
-                <div class="bc-wrap my-5">
-                    <nav class="bc-nav">
-                        <ol class="breadcrumb bg-transparent">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">About</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Technology</li>
-                        </ol>
-                    </nav>
-                </div>
+                <div class="container page-header-wrap">
+                    <div class="bc-wrap mt-5">
+                        <nav class="bc-nav">
+                            <ol class="breadcrumb bg-transparent">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">products</li>
+                            </ol>
+                        </nav>
+                    </div>
 
-                <div class="row">
-                    <div class="col-12 col-md-6"></div>
-                    <div class="col-12 col-md-6">
-                        <h2 class="font-weight-bold mb-3">BIOREIGNS PRODUCTS</h2>
-                        <p>BioReigns has developed an amazing, water-dissolvable delivery system that increases the absorption of low bioavailability molecules.</p>
-                        <button class="btn btn-gold">SHOP NOW!</button>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="page-hero-img">
+                                <img class="img-fluid" src="dist/img/products-graphic.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex align-items-center">
+                            <div class="page-hero-content">
+                                <h2 class="font-weight-bold mb-3">BIOREIGNS PRODUCTS</h2>
+                                <p>BioReigns has developed an amazing, water-dissolvable delivery system that increases the absorption of low bioavailability molecules.</p>
+                                <button class="btn btn-gold">SHOP NOW!</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
+
+
+
+
+
             <div class="wave-bottom">
                 <img class="img-fluid" src="dist/img/wave-bottom.svg" alt="">
             </div>
+
+
+
         </section>
 
 
@@ -200,7 +218,7 @@
             <div class="container footer-menu">
                 <div class="row">
 
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-md-5 text-center text-md-left">
                         <div class="footer-logo">
                             <img class="logo-footer mb-2" src="dist/img/bioreigns-icon.png" width="80" alt="">
                         </div>
@@ -213,22 +231,22 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-7 mt-5 mt-md-2 mt-lg-0">
+                    <div class="col-12 col-md-7 \ mt-5 mt-md-2 mt-lg-0">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-6 col-lg-4">
                                 <h6 class="text-gold footer-title-menu">CONTACT US</h6>
                                 <span class="mb-2 d-block">
                                 U.S. Customer Service <br>
                                 1-949-922-2032</span>
                                 <span class="d-block">support@bioreigns.com</span>
                             </div>
-                            <div class="col-4">
+                            <div class="col-3 col-lg-4">
                                 <h6 class="text-gold footer-title-menu">ADDRESS</h6>
                                 <address>BioReigns Corporate <br> Headquarters<br>
                             1451 Edinger Ave<br> Unit D, Tustin, <br> CA 92780</address>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-3 col-lg-4">
                                 <h6 class="text-gold footer-title-menu">QUICK LINKS</h6>
                                 <ul class="list-unstyled">
                                     <li class="list-item"><a class="list-links" href="https://bioreigns.com">Home</a></li>
@@ -281,13 +299,13 @@
 
             <hr class="mb-0">
 
-            <div class="container-fluid copyrights py-3">
+            <div class="container copyrights py-3">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 order-1 order-md-0 d-flex justify-content-center justify-content-md-start">
                         <span>© 2020 Bio-Reigns Inc, All Rights Reserved</span>
                     </div>
 
-                    <div class="col-6 d-flex justify-content-end">
+                    <div class="col-12 col-md-6 order-1 order-md-1 d-flex justify-content-center justify-content-md-end">
                         <ul class="policies-list list-unstyled d-flex m-0">
                             <li class="list-item mx-2"><a class="list-links" href="https://bioreigns.com/terms-and-conditions">Terms and
                                 Conditions</a> </li>
@@ -304,7 +322,6 @@
         </div>
 
     </footer>
-
 
 
 

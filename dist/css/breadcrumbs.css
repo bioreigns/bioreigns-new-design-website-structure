@@ -4,9 +4,9 @@
   text-transform: uppercase;
   font-weight: 500; }
   .bc-nav ol li:before {
-    color: #fff !important; }
+    color: #333 !important; }
   .bc-nav ol li a {
-    color: #fff !important; }
+    color: #333 !important; }
 
 .text-black {
   color: #333 !important; }

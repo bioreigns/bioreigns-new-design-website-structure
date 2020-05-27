@@ -1,3 +1,5 @@
+@import 'variables';
+@import 'mixins';
 // navbar style
 .navbar-collapse {
     height: 100% !important;
@@ -7,6 +9,7 @@
     height: 100% !important;
     li {
         // border-bottom: 2px #fff solid !important;
+        margin: 0 5px;
         height: 100% !important;
         a {
             font-size: .7em;
@@ -26,11 +29,22 @@
     }
 }
 
+@include sm {
+    .dropdown-menu {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
+
 .dropdown-menu {
-    width: 250px !important;
+    width: 240px !important;
     a {
         &:hover {
             color: #bf9332 !important;
+        }
+        &:focus {
+            background-color: #bf9332;
+            color: #fff !important;
         }
     }
 }
