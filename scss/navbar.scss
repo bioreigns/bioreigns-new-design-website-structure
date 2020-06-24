@@ -1,5 +1,3 @@
-@import 'variables';
-@import 'mixins';
 // navbar style
 .navbar-collapse {
     height: 100% !important;
@@ -26,13 +24,6 @@
         a {
             color: #bf9332 !important;
         }
-    }
-}
-
-@include sm {
-    .dropdown-menu {
-        margin: 0 !important;
-        width: 100% !important;
     }
 }
 

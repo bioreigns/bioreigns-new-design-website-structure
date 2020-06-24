@@ -14,11 +14,6 @@
   .navbar-nav li.active a {
     color: #bf9332 !important; }
 
-@media (min-width: 576px) {
-  .dropdown-menu {
-    margin: 0 !important;
-    width: 100% !important; } }
-
 .dropdown-menu {
   width: 240px !important; }
   .dropdown-menu a:hover {

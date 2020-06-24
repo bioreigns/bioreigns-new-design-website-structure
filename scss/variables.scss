@@ -1,3 +1,27 @@
+// Body
+$body-bg: #f8fafc;
+// Typography
+$font-family-sans-serif: 'Nunito',
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$fa-font-path: "../webfonts";
+$bglight:#f9f8f9;
+$black: #333;
+$gold: #bf9332;
+$white: #fff;
+$gray: #999;
 // BREAKPOINTS
 // Small tablets and large smartphones (landscape view)
 $screen-sm-min: 576px;
@@ -7,3 +31,5 @@ $screen-md-min: 768px;
 $screen-lg-min: 992px;
 // Large tablets and desktops
 $screen-xl-min: 1200px;
+// ADMIN
+$admin-sidebar-width: 300px;
