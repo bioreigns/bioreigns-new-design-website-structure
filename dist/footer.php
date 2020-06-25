@@ -43,17 +43,14 @@
                         <div class="col-3 col-lg-4">
                             <h6 class="footer-title-menu">QUICK LINKS</h6>
                             <ul class="list-unstyled">
-                                <li class="list-item my-2"><a class="list-links" href="{{ url('/') }}">Home</a>
+                                <li class="list-item my-2"><a class="list-links" href="/">Home</a>
                                 </li>
-                                <li class="list-item my-2"><a class="list-links distributor-link" href="{{ config('bioreigns.shopping_cart_url') }}/auth/login?from={{ $rep_id }}">Shop</a></li>
-                                <li class="list-item my-2"><a class="list-links" href="{{ url('/products') }}">Products</a>
+                                <li class="list-item my-2"><a class="list-links" href="{{ config('bioreigns.shopping_cart_url') }}/auth/login?from={{ $rep_id }}">Shop</a></li>
+                                <li class="list-item my-2"><a class="list-links" href="all-products.php">Products</a>
                                 </li>
-                                <li class="list-item my-2"><a class="list-links" href="{{ url('/about/technology') }}">Technology</a>
+                                <li class="list-item my-2"><a class="list-links" href="technology.php">Technology</a>
                                 </li>
-                                <li class="list-item my-2"><a class="list-links" href="{{ url('/join-our-team') }}">Opportunity</a>
-                                </li>
-                                <li class="list-item my-2"><a href="{{ url('/free-samples') }}" class="list-links">Free Samples</a></li>
-                                <li class="list-item my-2"><a class="list-links" href="{{ url('/faq') }}">FAQs</a></li>
+                                <li class="list-item my-2"><a class="list-links" href="faq.php">FAQs</a></li>
                             </ul>
                         </div>
 
@@ -112,11 +109,11 @@
                     <div class="col-12 col-md-6 order-1 order-md-1 d-flex justify-content-center justify-content-md-end">
 
                         <ul class="policies-list list-unstyled d-flex m-0">
-                            <li class="list-item mx-2"><a class="list-links" href="/terms-and-conditions">Terms and
+                            <li class="list-item mx-2"><a class="list-links" href="terms-and-conditions.php">Terms and
                                         Conditions</a></li>
-                            <li class="list-item mx-2"><a class="list-links" href="/privacy-policy">Privacy Policy</a>
+                            <li class="list-item mx-2"><a class="list-links" href="privacy-policy.php">Privacy Policy</a>
                             </li>
-                            <li class="list-item mx-2"><a class="list-links" href="/refund-policy">Refund
+                            <li class="list-item mx-2"><a class="list-links" href="refund-policy.php">Refund
                                         Policy</a>
                             </li>
                         </ul>
@@ -136,6 +133,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/custom.js"> </script>
 </body>
 
 </html>

@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a class="dropdown-item" href="{{ url('/about/eeg-testing') }}">
+                            <a class="dropdown-item" href="braintesting.php">
                                 <div class="row">
                                     <div class="col-12 d-flex align-items-center text-center justify-content-center">
                                         <span class="mr-2">EEG Testing</span>
@@ -64,7 +64,7 @@
                         </a>
                         <div class="dropdown-menu border-0 shadow-sm"
                              aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item mb-2" href="{{ url('/products') }}">
+                            <a class="dropdown-item mb-2" href="all-product.php">
                                 <div class="row">
                                     <div class="col-4 d-flex align-items-center">
                                         <img class="img-fluid" width="50px" src="/img/biodefense.png" alt="">
@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a class="dropdown-item mb-2" href="/products">
+                            <a class="dropdown-item mb-2" href="all-product.php">
                                 <div class="row">
                                     <div class="col-4 d-flex align-items-center">
                                         <img class="img-fluid" width="50px" src="/img/RELIEF-LOTION.png" alt="">
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a class="dropdown-item mb-2" href="/products">
+                            <a class="dropdown-item mb-2" href="all-product.php">
                                 <div class="row">
                                     <div class="col-4 d-flex align-items-center">
                                         <img class="img-fluid" width="50px" src="/img/GUMMY-REGULAR.png" alt="">
@@ -101,7 +101,7 @@
                                 </div>
                             </a>
                             <div class="dropdown-divider mx-2"></div>
-                            <a class="dropdown-item mb-2" href="{{ url('/products') }}">
+                            <a class="dropdown-item mb-2" href="all-product.php">
                                 <div class="row">
                                     <div class="col-12 d-flex align-items-center text-center justify-content-center">
                                         <span class="mr-2">see all products</span>
@@ -112,7 +112,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/faq">faqs</a>
+                        <a class="nav-link" href="faqs.php">faqs</a>
                     </li>
                 </ul>
                 <hr>

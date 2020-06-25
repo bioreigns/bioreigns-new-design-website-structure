@@ -79,6 +79,60 @@ body {
 .text-gray {
   color: #999 !important; }
 
+#fda-disclaimer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  padding: 20px;
+  z-index: 99999; }
+
+#fda-disclaimer p {
+  color: #cfcfcf;
+  margin: 0;
+  font-size: 14px; }
+
+.page-hero-jumbotron > * {
+  z-index: 10;
+  position: relative;
+  color: #fff !important;
+  text-align: center; }
+
+.page-hero-jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20vh 0;
+  position: relative; }
+  .page-hero-jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.438);
+    z-index: 2; }
+  .page-hero-jumbotron #video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s opacity; }
+
+.page-title {
+  font-weight: 600;
+  font-size: 2.5em; }
+
+.page-desc {
+  font-weight: 400;
+  font-size: 1em; }
+
 .navbar-collapse {
   height: 100% !important; }
 
@@ -92,13 +146,28 @@ body {
       font-weight: 500; }
     .navbar-nav li:hover a.nav-link {
       color: #bf9332 !important; }
-  .navbar-nav li.active a {
+  .navbar-nav li.active a.nav-link {
     color: #bf9332 !important; }
+  .navbar-nav li.sign-up-btn {
+    transition: all .2s;
+    background-color: #bf9332 !important;
+    border-radius: 2em;
+    padding: .09em 1em; }
+    .navbar-nav li.sign-up-btn a.nav-link {
+      color: #fff !important; }
+    .navbar-nav li.sign-up-btn:hover {
+      transform: scale(1.03);
+      transition: all .2s; }
+      .navbar-nav li.sign-up-btn:hover a.nav-link {
+        color: #fff !important; }
 
 .dropdown-menu {
-  width: 240px !important; }
+  min-width: 300px !important; }
   .dropdown-menu a:hover {
     color: #bf9332 !important; }
+    .dropdown-menu a:hover img {
+      transform: scale(1.05);
+      transition: all .2s; }
   .dropdown-menu a:focus {
     background-color: #bf9332;
     color: #fff !important; }
@@ -136,9 +205,7 @@ ul .list-item:hover .list-links {
 
 .social-media a {
   color: rgba(255, 255, 255, 0.664) !important;
-  border: 1px solid rgba(255, 255, 255, 0.664);
-  border-radius: 50px;
-  padding: 10px;
+  margin-right: 10px;
   width: 50px;
   height: 50px; }
 
@@ -172,15 +239,16 @@ ul .list-item:hover .list-links {
   background-repeat: no-repeat;
   background-color: #fff; }
 
-.faq-title > a:before {
-  float: right !important;
-  font-family: 'Font Awesome\ 5 Free';
-  content: "\f068";
-  padding-right: 5px; }
+.collapse-icon:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f068';
+  color: #bf9332;
+  font-weight: bold !important;
+  float: right; }
 
-.faq-title > a.collapsed:after {
-  float: right !important;
-  content: "\f067"; }
+.collapse-icon.collapsed:before {
+  content: '\f067';
+  font-weight: bold !important; }
 
 .bc-nav ol li {
   font-size: .8em !important;

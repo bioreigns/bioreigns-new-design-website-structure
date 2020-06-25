@@ -28,9 +28,7 @@ ul .list-item:hover .list-links {
 
 .social-media a {
   color: rgba(255, 255, 255, 0.664) !important;
-  border: 1px solid rgba(255, 255, 255, 0.664);
-  border-radius: 50px;
-  padding: 10px;
+  margin-right: 10px;
   width: 50px;
   height: 50px; }
 

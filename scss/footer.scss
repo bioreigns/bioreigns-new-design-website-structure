@@ -1,10 +1,11 @@
+@import 'variables';
 // footer
 footer {
-    background-color: #bf9332 !important;
+    background-color: $gold !important;
     .copyrights {
         font-size: .8em !important;
         span {
-            color: #fff !important;
+            color: $white !important;
         }
     }
 }
@@ -44,9 +45,8 @@ ul {
 .social-media {
     a {
         color: rgba(255, 255, 255, 0.664) !important;
-        border: 1px solid rgba(255, 255, 255, 0.664);
-        border-radius: 50px;
-        padding: 10px;
+        // padding: 10px;
+        margin-right: 10px;
         width: 50px;
         height: 50px;
         // line-height: 40px;

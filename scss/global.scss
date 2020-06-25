@@ -1,10 +1,11 @@
+@import 'variables';
 * {
     font-family: 'Poppins', sans-serif;
 }
 
 html,
 body {
-    background-color: #f9f8f9 !important;
+    background-color: $bglight !important;
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,20 +14,21 @@ body {
     vertical-align: baseline;
     box-sizing: border-box;
     overflow-x: hidden;
+    // color: $black !important;
 }
 
 // global style ========================================
 // bg
 .bg-white {
-    background-color: #fff !important;
+    background-color: $white !important;
 }
 
 .bg-gold {
-    background-color: #bf9332 !important;
+    background-color: $gold !important;
 }
 
 .bg-black {
-    background-color: #333 !important;
+    background-color: $black !important;
 }
 
 .bg-gradient {
@@ -41,46 +43,46 @@ body {
 // btn
 .btn-outline-gold {
     padding: 8px 20px !important;
-    border: 1px #bf9332 solid !important;
+    border: 1px $gold solid !important;
     border-radius: 2em;
-    color: #bf9332 !important;
+    color: $gold !important;
     transition-delay: .1s;
     &:hover {
-        background-color: #bf9332 !important;
-        color: #fff !important;
+        background-color: $gold !important;
+        color: $white !important;
         transition-delay: .1s;
     }
 }
 
 .btn-outline-black {
     padding: 15px 30px !important;
-    border: 1px #333 solid !important;
+    border: 1px $black solid !important;
     border-radius: 2em !important;
-    color: #333 !important;
+    color: $black !important;
     transition: all .2s ease-in-out;
     font-weight: 500 !important;
     font-size: .7em !important;
     &:hover {
-        background-color: #333 !important;
-        color: #fff !important;
+        background-color: $black !important;
+        color: $white !important;
         transition-delay: .1s;
     }
 }
 
 .btn-gold {
     padding: 15px 30px !important;
-    border: 1px #bf9332 solid !important;
+    border: 1px $gold solid !important;
     border-radius: 2em !important;
-    color: #fff !important;
-    background-color: #bf9332 !important;
+    color: $white !important;
+    background-color: $gold !important;
     transition: all .2s ease-in-out;
     font-weight: 500 !important;
     font-size: .7em !important;
     position: relative;
     z-index: 0;
     &:hover {
-        background-color: #bf9332 !important;
-        color: #fff !important;
+        background-color: $gold !important;
+        color: $white !important;
         transform: scale(1.03);
         transition: all .2s;
     }
@@ -88,14 +90,80 @@ body {
 
 // hr
 .seprator-black {
-    border-color: #333 !important;
+    border-color: $black !important;
 }
 
 // text color
 .text-gold {
-    color: #bf9332 !important;
+    color: $gold !important;
 }
 
 .text-gray {
-    color: #999 !important;
+    color: $gray !important;
+}
+
+#fda-disclaimer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding: 20px;
+    z-index: 99999;
+}
+
+#fda-disclaimer p {
+    color: #cfcfcf;
+    margin: 0;
+    font-size: 14px;
+}
+
+// page header
+// .page-hero-section {
+//     position: relative;
+// }
+.page-hero-jumbotron>* {
+    z-index: 10;
+    position: relative;
+    color: $white !important;
+    text-align: center;
+}
+
+.page-hero-jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20vh 0;
+    position: relative;
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(51, 51, 51, 0.438);
+        z-index: 2;
+    }
+    #video-background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 1s opacity;
+    }
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.page-desc {
+    font-weight: 400;
+    font-size: 1em;
 }

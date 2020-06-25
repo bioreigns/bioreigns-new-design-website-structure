@@ -1,11 +1,14 @@
-.faq-title>a:before {
-    float: right !important;
-    font-family: 'Font Awesome\ 5 Free';
-    content: "\f068";
-    padding-right: 5px;
+@import 'variables';
+.collapse-icon:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f068';
+    color: $gold;
+    font-weight: bold !important;
+    float: right;
+    // align-items: center;
 }
 
-.faq-title>a.collapsed:after {
-    float: right !important;
-    content: "\f067";
+.collapse-icon.collapsed:before {
+    content: '\f067';
+    font-weight: bold !important;
 }

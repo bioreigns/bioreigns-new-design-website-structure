@@ -11,13 +11,28 @@
       font-weight: 500; }
     .navbar-nav li:hover a.nav-link {
       color: #bf9332 !important; }
-  .navbar-nav li.active a {
+  .navbar-nav li.active a.nav-link {
     color: #bf9332 !important; }
+  .navbar-nav li.sign-up-btn {
+    transition: all .2s;
+    background-color: #bf9332 !important;
+    border-radius: 2em;
+    padding: .09em 1em; }
+    .navbar-nav li.sign-up-btn a.nav-link {
+      color: #fff !important; }
+    .navbar-nav li.sign-up-btn:hover {
+      transform: scale(1.03);
+      transition: all .2s; }
+      .navbar-nav li.sign-up-btn:hover a.nav-link {
+        color: #fff !important; }
 
 .dropdown-menu {
-  width: 240px !important; }
+  min-width: 300px !important; }
   .dropdown-menu a:hover {
     color: #bf9332 !important; }
+    .dropdown-menu a:hover img {
+      transform: scale(1.05);
+      transition: all .2s; }
   .dropdown-menu a:focus {
     background-color: #bf9332;
     color: #fff !important; }

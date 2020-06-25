@@ -31,7 +31,7 @@
                 <div class="card border-0">
                     <div class="card-body">
                         <a href="#" onclick="openModal();currentSlide(1)" data-toggle="modal" data-target="#bsModal">
-                            <img class="img-fluid" src="{{asset('/img/documentation/broad-spectrum/broad-spectrum-1.png')}}" alt="">
+                            <img class="img-fluid" src="img/documentation/broad-spectrum/broad-spectrum-1.png" alt="">
                         </a>
                         <div class="card-title text-center my-3">
                             <h5 class="text-uppercase">Broad Spectrum</h5>
@@ -46,7 +46,7 @@
                 <div class="card border-0">
                     <div class="card-body">
                         <a href="#" data-toggle="modal" data-target="#isoModal">
-                            <img class="img-fluid" src="{{asset('/img/documentation/isolate/isolate-1.png')}}" alt="">
+                            <img class="img-fluid" src="img/documentation/isolate/isolate-1.png" alt="">
                         </a>
                         <div class="card-title text-center my-3">
                             <h5 class="text-uppercase">Isolate</h5>
@@ -61,7 +61,7 @@
                 <div class="card border-0">
                     <div class="card-body">
                         <a href="#" data-toggle="modal" data-target="#fsModal">
-                            <img class="img-fluid" src="{{asset('/img/documentation/full-spectrum/full-spectrum-1.png')}}" alt="">
+                            <img class="img-fluid" src="img/documentation/full-spectrum/full-spectrum-1.png" alt="">
                         </a>
                         <div class="card-title text-center my-3">
                             <h5 class="text-uppercase">full Spectrum</h5>
@@ -94,19 +94,19 @@
             </div>
                 <div class="modal-body">
                     <div class="bsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/broad-spectrum/broad-spectrum-1.png')}}" >
+                        <img class="img-fluid" src="img/documentation/broad-spectrum/broad-spectrum-1.png" >
                     </div>
                 
                     <div class="bsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/broad-spectrum/broad-spectrum-2.png')}}" >
+                        <img class="img-fluid" src="img/documentation/broad-spectrum/broad-spectrum-2.png" >
                     </div>
                 
                     <div class="bsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/broad-spectrum/broad-spectrum-3.png')}}">
+                        <img class="img-fluid" src="img/documentation/broad-spectrum/broad-spectrum-3.png">
                     </div>
                     
                     <div class="bsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/broad-spectrum/broad-spectrum-4.png')}}">
+                        <img class="img-fluid" src="img/documentation/broad-spectrum/broad-spectrum-4.png">
                     </div>
                 </div>
 
@@ -141,19 +141,19 @@
             </div>
                 <div class="modal-body">
                     <div class="isoSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/isolate/isolate-1.png')}}" >
+                        <img class="img-fluid" src="img/documentation/isolate/isolate-1.png" >
                     </div>
                 
                     <div class="isoSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/isolate/isolate-2.png')}}" >
+                        <img class="img-fluid" src="img/documentation/isolate/isolate-2.png" >
                     </div>
                 
                     <div class="isoSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/isolate/isolate-3.png')}}">
+                        <img class="img-fluid" src="img/documentation/isolate/isolate-3.png">
                     </div>
                     
                     <div class="isoSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/isolate/isolate-4.png')}}">
+                        <img class="img-fluid" src="img/documentation/isolate/isolate-4.png">
                     </div>
                 </div>
 
@@ -188,19 +188,19 @@
             </div>
                 <div class="modal-body">
                     <div class="fsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/full-spectrum/full-spectrum-1.png')}}" >
+                        <img class="img-fluid" src="img/documentation/full-spectrum/full-spectrum-1.png" >
                     </div>
                 
                     <div class="fsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/full-spectrum/full-spectrum-2.png')}}" >
+                        <img class="img-fluid" src="img/documentation/full-spectrum/full-spectrum-2.png" >
                     </div>
                 
                     <div class="fsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/full-spectrum/full-spectrum-3.png')}}">
+                        <img class="img-fluid" src="img/documentation/full-spectrum/full-spectrum-3.png">
                     </div>
                     
                     <div class="fsSlides">
-                        <img class="img-fluid" src="{{asset('/img/documentation/full-spectrum/full-spectrum-4.png')}}">
+                        <img class="img-fluid" src="img/documentation/full-spectrum/full-spectrum-4.png">
                     </div>
                 </div>
 
